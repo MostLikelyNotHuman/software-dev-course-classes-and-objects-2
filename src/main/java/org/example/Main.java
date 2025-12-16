@@ -28,9 +28,11 @@ public class Main {
         } else if (option.equals("3")) {
             viewStudentList();
         } else if (option.equals("4")) {
+            scanner.close();
             System.exit(0);
         } else {
             System.out.println("Invalid option");
+            mainMenu();
         }
     }
 
